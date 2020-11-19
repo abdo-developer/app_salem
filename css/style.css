@@ -1,0 +1,374 @@
+
+/*** ADD FONTS ***/
+
+@font-face {
+    src: url(../fonts/JF-Flat-regular.ttf);
+    font-family: ar-font;
+}
+
+/** BODY **/
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header.top__header nav a img {
+    height: 30px;
+}
+
+header.top__header .shepherd img {
+    height: 50px;
+    margin-right: 100%;
+}
+
+header.top__header nav button {
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+header.top__header nav button svg {
+    text-align: center;
+    margin-right: -6px;
+}
+
+header.top__header nav ul {
+    padding: 0;
+}
+
+/*
+header.top__header nav ul li {
+    transition: all 0.3s ease;
+}
+
+header.top__header nav ul li:hover {
+    background-color: #006232;
+    border-radius: 3px;
+}
+*/
+
+header.top__header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.s ease;
+}
+
+header.top__header nav ul li a:hover {
+    color: teal;
+}
+
+section.about__salem .title_section h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bar {
+    margin: 20px auto;
+    height: 2px;
+    border-bottom: 2px solid orange;
+    width: 25px auto;
+    width: 130px;
+}
+
+section.about__salem p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+section.about__salem .donwload__app button {
+    border: transparent;
+    background-color: transparent;
+}
+
+section.about__salem .donwload__app button.btn-app {
+    background-color: orange;
+    border: 2px inset orangered;
+    padding: 12px;
+    margin-right: 13%;
+    transition: all 0.3s ease;
+}
+
+section.about__salem .donwload__app button.btn-app:hover,
+section.about__salem .donwload__app button.btn-app:focus,
+section.about__salem .donwload__app button.btn-app:active {
+    background-color: orangered;
+}
+
+section.about__salem .donwload__app button.btn-app a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    color: white;
+}
+
+section.about__salem .donwload__app button.btn-app a svg {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+section.about__salem #carouselSlideImage .carousel-inner img {
+    height: 400px;
+    margin-right: 142px;
+    margin-bottom: 7%;
+}
+
+section.about__salem #carouselSlideImage .carousel-indicators {
+    margin-right: -6%;
+    margin-bottom: 0px;
+}
+
+section.about__salem #carouselSlideImage .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+}
+
+section.AdvantagesSaleem {
+    background-color: wheat;
+    padding: 25px;
+    margin: 35px 0;
+}
+
+section.AdvantagesSaleem .image-icon img {
+    height: 90px;
+    margin: 33px 0;
+}
+
+section.Services_salem .image-icon img {
+    height: 85px;
+    margin: 40px 0;
+}
+
+section.Services_salem .image-icon img.network_phone {
+    height: 100px;
+}
+
+section.Services_salem .paragh__desc h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+section.Services_salem .paragh__desc p {
+    font-weight: 500;
+}
+
+section.Services_salem .title__recharge h3 {
+    margin: 35px 0;
+    font-weight: bold;
+}
+
+section.Services_salem .image-icon img.Networks-images {
+    height: 160px;
+}
+
+section.Network__Salem .network__title h4 {
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#accordionQuetions {
+    margin: 40px 0;
+}
+
+section.Common_questions .card {
+    border-radius: 0;
+}
+
+section.Common_questions .card .card-header {
+    background-color: white;
+}
+
+section.Common_questions .card .card-header button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+section.Common_questions .card .card-body {
+    background-color: wheat;
+}
+
+section.Common_questions .card .card-body a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.Section__contactUs {
+    background-image: url(../images/bg-footer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    padding: 25px;
+}
+
+section #overlay__section {
+    background-color: wheat;
+    padding: 35px;
+}
+
+section.Section__contactUs  .custom_title {
+    font-weight: 600;
+    color: wheat;
+}
+
+section.Section__contactUs .title_social h5 {
+    font-weight: bold;
+}
+
+section.Section__contactUs .text__des p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+section.Section__contactUs .icons_socialMedia ul {
+    padding: 0;
+    text-align: center;
+}
+
+section.Section__contactUs .icons_socialMedia ul li {
+    margin-right: 12px;
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.4s ease 0s;
+}
+
+section.Section__contactUs .icons_socialMedia ul li:active,
+section.Section__contactUs .icons_socialMedia ul li:hover,
+section.Section__contactUs .icons_socialMedia ul li:focus {
+    background-color: rgb(151, 40, 0);
+}
+
+section.Section__contactUs .icons_socialMedia ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: all 0.4s ease 0s;
+}
+
+section.Section__contactUs .icons_socialMedia ul li a:hover,
+section.Section__contactUs .icons_socialMedia ul li a:active,
+section.Section__contactUs .icons_socialMedia ul li a:focus {
+    color: wheat;
+}
+
+section.Section__contactUs .latest_post p {
+    text-align: justify;
+}
+
+section.Section__contactUs .latest_post p svg {
+    font-size: 20px;
+    color: #15AABF;
+}
+
+section.Section__contactUs .call__phone img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+footer.last_footer h5#copyright {
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/********** MediaQuery Responsive page *****/
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    section.Network__Salem .image__network img {
+        height: 187px;
+    }
+
+    section.about__salem .donwload__app button.btn-app {
+        margin-right: 28%;
+        margin-bottom: 18px;
+    }
+
+    section.about__salem #carouselSlideImage .carousel-inner img {
+        height: 320px;
+        margin-right: 90px;
+        margin-bottom: 15%;
+    }
+
+    section.about__salem #carouselSlideImage .carousel-indicators {
+        margin-right: 10%;
+        margin-bottom: 0px;
+    }
+
+    section.Common_questions .card .card-header button {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    section.Network__Salem .image__network img {
+        height: 280px;
+    }
+
+    section.about__salem #carouselSlideImage .carousel-inner img {
+        height: 400px;
+        margin-right: 170px;
+        margin-bottom: 10%;
+        margin-top: 20px;
+    }
+
+    section.about__salem #carouselSlideImage .carousel-indicators {
+        margin-right: 10%;
+        margin-bottom: 0px;
+    }
+
+    section.Common_questions .card .card-header button {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    section.about__salem #carouselSlideImage .carousel-inner img {
+        height: 470px;
+        margin-right: 32%;
+        margin-bottom: 10%;
+        margin-top: 40px;
+    }
+
+    section.about__salem #carouselSlideImage .carousel-indicators {
+        margin-right: 4%;
+    }
+
+    section.Network__Salem .image__network img {
+        height: 320px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /**** Responsive Page in the 992px and plus GOOD ! *****/
+
+}
+
+@media (min-width: 1200px) {
+
+    /**** Responsive Page in the 1200px and plus GOOD ! *****/
+
+}
