@@ -112,14 +112,24 @@ section.about__salem .donwload__app button.btn-app a svg {
 }
 
 section.about__salem #carouselSlideImage .carousel-inner img {
-    height: 400px;
+    height: 350px;
     margin-right: 142px;
     margin-bottom: 7%;
+    margin-top: 50px;
 }
 
 section.about__salem #carouselSlideImage .carousel-indicators {
-    margin-right: -6%;
+    margin-right: -10%;
     margin-bottom: 0px;
+}
+
+section.about__salem  h5.number_phone {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+section.about__salem .call__phone img {
+    height: 220px;
 }
 
 section.about__salem #carouselSlideImage .carousel-indicators li {
